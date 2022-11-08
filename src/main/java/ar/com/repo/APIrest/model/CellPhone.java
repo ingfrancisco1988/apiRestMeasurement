@@ -45,38 +45,4 @@ public class CellPhone {
     this.user = user;
   }
 
-
-/*
-  public void setId(Integer id) {
-    this.id = id;
-  }
-
-  public Integer getId() {
-    return id;
-  }
-
-  public int getCodArea() {
-    return codArea;
-  }
-
-  public void setCodArea(int codArea) {
-    this.codArea = codArea;
-  }
-
-  public void setNumberCell(int numberCell) {
-    this.numberCell = numberCell;
-  }
-
-  public int getNumberCell() {
-    return numberCell;
-  }
-
-  public User getUser() {
-    return user;
-  }
-
-  public void setUser(User user) {
-    this.user = user;
-  }*/
-
 }

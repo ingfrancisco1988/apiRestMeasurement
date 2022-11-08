@@ -48,48 +48,4 @@
     @OneToMany(mappedBy="id" )
     private List<CellPhone> cellphoneList;
 
-/*
-    public List<CellPhone> getCellphoneList() {
-      return cellphoneList;
-    }
-
-    public void setCellphoneList(List<CellPhone> cellphoneList) {
-      this.cellphoneList = cellphoneList;
-    }
-
-    public Integer getId() {
-      return id;
-    }
-
-    public void setId(Integer id) {
-
-      this.id = id;
-    }
-
-    public String getEmail() {
-      return email;
-    }
-
-    public void setEmail(String email) {
-
-      this.email = email;
-    }
-
-    public String getUserFirstName() {
-      return userFirstName;
-    }
-
-    public void setUserFirstName(String userFirstName) {
-      this.userFirstName = userFirstName;
-    }
-
-    public String getUserLastName() {
-      return userLastName;
-    }
-
-    public void setUserLastName(String userLastName) {
-      this.userLastName = userLastName;
-    }
-
-*/
   }

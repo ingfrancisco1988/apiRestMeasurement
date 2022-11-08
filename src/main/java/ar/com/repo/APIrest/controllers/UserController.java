@@ -36,8 +36,6 @@ public class UserController {
 
     @RequestMapping(value = "/save", method = RequestMethod.POST)
     public ResponseEntity<User> createUser(@RequestBody UserDTO userDTO) {
-
-        ;
         return ResponseEntity.ok(userService.create(userMapper.toEntity(userDTO))) ;
     }
 
